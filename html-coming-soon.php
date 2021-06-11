@@ -38,6 +38,7 @@ if (!defined('WPINC')) {
 define('HTML_COMING_SOON_VERSION', '1.0.0');
 define('HTML_COMING_SOON_PATH', plugin_dir_path(__FILE__));
 define('HTML_COMING_SOON_URL', plugin_dir_url(__FILE__));
+define('HTML_COMING_SOON_SLUG', 'html-coming-soon');
 
 require __DIR__ . '/vendor/autoload.php';
 

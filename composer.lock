@@ -1,0 +1,502 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bbede68bd37e869b5a37d04d32b374ce",
+    "packages": [
+        {
+            "name": "bupy7/php-html-form",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bupy7/php-html-form.git",
+                "reference": "2e5dfb7d445e68e5ae8b0183e83333fbbb09fc18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bupy7/php-html-form/zipball/2e5dfb7d445e68e5ae8b0183e83333fbbb09fc18",
+                "reference": "2e5dfb7d445e68e5ae8b0183e83333fbbb09fc18",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "^4.8",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "AdamWathan\\Form\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Wathan",
+                    "email": "adam.wathan@gmail.com"
+                },
+                {
+                    "name": "Vasily Velosloodcev",
+                    "email": "bupy765@gmail.com"
+                }
+            ],
+            "description": "A basic framework agnostic form building package with a few extra niceties like remembering old input and retrieving error messages.",
+            "support": {
+                "issues": "https://github.com/bupy7/php-html-form/issues",
+                "source": "https://github.com/bupy7/php-html-form/tree/master"
+            },
+            "time": "2017-11-04T00:00:41+00:00"
+        },
+        {
+            "name": "gamajo/template-loader",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GaryJones/Gamajo-Template-Loader.git",
+                "reference": "fa92a37b780d945463f7fea328dce14933558752"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GaryJones/Gamajo-Template-Loader/zipball/fa92a37b780d945463f7fea328dce14933558752",
+                "reference": "fa92a37b780d945463f7fea328dce14933558752",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+                "php": ">=7.1",
+                "phpcompatibility/phpcompatibility-wp": "^1",
+                "roave/security-advisories": "dev-master",
+                "squizlabs/php_codesniffer": "^3.3",
+                "wp-coding-standards/wpcs": "^1"
+            },
+            "suggest": {
+                "coenjacobs/mozart": "Easily wrap this library with your own prefix, to prevent collisions when multiple plugins use this library"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "class-gamajo-template-loader.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Gary Jones",
+                    "homepage": "https://gamajo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A class for your WordPress plugin, to allow loading template parts with fallback through the child theme > parent theme > plugin",
+            "homepage": "https://github.com/GaryJones/Gamajo-Template-Loader",
+            "keywords": [
+                "templates",
+                "wordpress"
+            ],
+            "time": "2018-09-24T10:23:49+00:00"
+        },
+        {
+            "name": "typisttech/imposter",
+            "version": "0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypistTech/imposter.git",
+                "reference": "f52b1a2289d2ea9c660cf9595085d0b11469af83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypistTech/imposter/zipball/f52b1a2289d2ea9c660cf9595085d0b11469af83",
+                "reference": "f52b1a2289d2ea9c660cf9595085d0b11469af83",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.1",
+                "codeception/mockery-module": "^0.4.0",
+                "codeception/module-asserts": "^1.3",
+                "codeception/module-filesystem": "^1.0",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "suggest": {
+                "typisttech/imposter-plugin": "Composer plugin to integrate composer and imposter"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TypistTech\\Imposter\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Typist Tech",
+                    "email": "imposter@typist.tech",
+                    "homepage": "https://typist.tech"
+                },
+                {
+                    "name": "Tang Rufus",
+                    "email": "tangrufus@gmail.com",
+                    "homepage": "https://typist.tech",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Wrapping all composer vendor packages inside your own namespace. Intended for WordPress plugins.",
+            "homepage": "https://github.com/TypistTech/imposter",
+            "keywords": [
+                "composer",
+                "dependency",
+                "monkey-patching",
+                "namespace",
+                "wordpress"
+            ],
+            "support": {
+                "email": "imposter@typist.tech",
+                "issues": "https://github.com/TypistTech/imposter/issues",
+                "source": "https://github.com/TypistTech/imposter"
+            },
+            "funding": [
+                {
+                    "url": "https://typist.tech/donation/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/iAmTangRufus/30usd",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tangrufus",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-12-06T22:57:09+00:00"
+        },
+        {
+            "name": "typisttech/imposter-plugin",
+            "version": "0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypistTech/imposter-plugin.git",
+                "reference": "15fa3c90aca3b79497f438b9e02a6176498de53c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypistTech/imposter-plugin/zipball/15fa3c90aca3b79497f438b9e02a6176498de53c",
+                "reference": "15fa3c90aca3b79497f438b9e02a6176498de53c",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1 || ^2.0",
+                "php": "^7.3 || ^8.0",
+                "typisttech/imposter": "^0.6.1"
+            },
+            "require-dev": {
+                "codeception/codeception": "^4.1",
+                "codeception/module-asserts": "^1.3",
+                "codeception/module-cli": "^1.1",
+                "codeception/module-filesystem": "^1.0",
+                "composer/composer": "^1.10.19 || ^2.0",
+                "squizlabs/php_codesniffer": "^3.5",
+                "typisttech/codeception-composer-project-module": "^0.1.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.6.x-dev"
+                },
+                "class": "TypistTech\\Imposter\\Plugin\\ImposterPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "TypistTech\\Imposter\\Plugin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Typist Tech",
+                    "email": "imposter-plugin@typist.tech",
+                    "homepage": "https://www.typist.tech"
+                },
+                {
+                    "name": "Tang Rufus",
+                    "email": "tangrufus@gmail.com",
+                    "homepage": "https://www.typist.tech",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Composer plugin that wraps all composer vendor packages inside your own namespace. Intended for WordPress plugins.",
+            "homepage": "https://github.com/TypistTech/imposter-plugin",
+            "keywords": [
+                "composer",
+                "composer-plugin",
+                "dependency",
+                "monkey-patching",
+                "namespace",
+                "wordpress"
+            ],
+            "support": {
+                "email": "imposter-plugin@typist.tech",
+                "issues": "https://github.com/TypistTech/imposter-plugin/issues",
+                "source": "https://github.com/TypistTech/imposter-plugin"
+            },
+            "funding": [
+                {
+                    "url": "https://typist.tech/donation/",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/iAmTangRufus/30usd",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tangrufus",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-12-06T23:41:30+00:00"
+        },
+        {
+            "name": "typisttech/wp-better-settings",
+            "version": "0.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypistTech/wp-better-settings.git",
+                "reference": "30fd7f962f8ab029ae6d6d53f48f8d4826a87f20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypistTech/wp-better-settings/zipball/30fd7f962f8ab029ae6d6d53f48f8d4826a87f20",
+                "reference": "30fd7f962f8ab029ae6d6d53f48f8d4826a87f20",
+                "shasum": ""
+            },
+            "require": {
+                "bupy7/php-html-form": "^1.0",
+                "php": ">7.0",
+                "typisttech/wp-kses-view": "^0.4.0",
+                "typisttech/wp-option-store": "^0.1.1"
+            },
+            "require-dev": {
+                "codeception/aspect-mock": "^2.1",
+                "lucatume/wp-browser": "^2.0.5",
+                "neronmoon/scriptsdev": "^0.1.1",
+                "wp-coding-standards/wpcs": "^0.13.1"
+            },
+            "suggest": {
+                "typisttech/imposter-plugin": "Wrap all composer vendor packages inside your own namespace, to prevent collisions when multiple plugins use this library",
+                "typisttech/wp-contained-hook": "Lazily instantiate objects from dependency injection container to WordPress hooks (actions and filters)",
+                "typisttech/wp-tabbed-admin-pages": "Create WordPress admin pages with tabbed navigations, the OOP way"
+            },
+            "type": "library",
+            "extra": {
+                "scripts-dev": {
+                    "post-install-cmd": "@install-dev-extra",
+                    "post-update-cmd": "@install-dev-extra"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TypistTech\\WPBetterSettings\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tang Rufus",
+                    "email": "tangrufus@gmail.com",
+                    "homepage": "https://www.typist.tech/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Typist Tech",
+                    "email": "wp-better-settings@typist.tech",
+                    "homepage": "https://www.typist.tech/"
+                }
+            ],
+            "description": "A simplified OOP implementation of the WP Settings API",
+            "homepage": "https://www.typist.tech/projects/wp-better-settings",
+            "keywords": [
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "wp-better-settings@typist.tech",
+                "issues": "https://github.com/TypistTech/wp-better-settings/issues",
+                "source": "https://github.com/TypistTech/wp-better-settings"
+            },
+            "time": "2018-05-11T15:10:31+00:00"
+        },
+        {
+            "name": "typisttech/wp-kses-view",
+            "version": "0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypistTech/wp-kses-view.git",
+                "reference": "29d6c54cbab78281641b419e9563d45cc6d2a37e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypistTech/wp-kses-view/zipball/29d6c54cbab78281641b419e9563d45cc6d2a37e",
+                "reference": "29d6c54cbab78281641b419e9563d45cc6d2a37e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "itinerisltd/itineris-wp-coding-standards": "^0.2.3"
+            },
+            "suggest": {
+                "typisttech/imposter-plugin": "Wrap all composer vendor packages inside your own namespace, to prevent collisions when multiple plugins use this library",
+                "typisttech/wp-admin-tabs": "Create tabbed navigation for WordPress admin dashboard, the OOP way",
+                "typisttech/wp-better-settings": "A simplified OOP implementation of the WP Settings API",
+                "typisttech/wp-contained-hook": "Lazily instantiate objects from dependency injection container to WordPress hooks (actions and filters)",
+                "typisttech/wp-tabbed-admin-pages": "Create WordPress admin pages with tabbed navigations, the OOP way"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TypistTech\\WPKsesView\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Tang Rufus",
+                    "email": "tangrufus@gmail.com",
+                    "homepage": "https://typist.tech/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Typist Tech",
+                    "email": "wp-kses-view@typist.tech",
+                    "homepage": "https://typist.tech/"
+                }
+            ],
+            "description": "Safely rendering for WordPress, the OOP way",
+            "homepage": "https://typist.tech/projects/wp-kses-view",
+            "keywords": [
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "wp-kses-view@typist.tech",
+                "issues": "https://github.com/TypistTech/wp-kses-view/issues",
+                "source": "https://github.com/TypistTech/wp-kses-view"
+            },
+            "time": "2019-04-09T11:17:06+00:00"
+        },
+        {
+            "name": "typisttech/wp-option-store",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TypistTech/wp-option-store.git",
+                "reference": "a7bd25b8d64da2af7b8eea2c8167a9a7e238b112"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TypistTech/wp-option-store/zipball/a7bd25b8d64da2af7b8eea2c8167a9a7e238b112",
+                "reference": "a7bd25b8d64da2af7b8eea2c8167a9a7e238b112",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">7.0"
+            },
+            "require-dev": {
+                "codeception/aspect-mock": "^2.1",
+                "lucatume/wp-browser": "^1.21",
+                "neronmoon/scriptsdev": "^0.1.1",
+                "wp-coding-standards/wpcs": "^0.13.1"
+            },
+            "suggest": {
+                "typisttech/imposter-plugin": "Wrap all composer vendor packages inside your own namespace, to prevent collisions when multiple plugins use this library",
+                "typisttech/wp-better-settings": "A simplified OOP implementation of the WP Settings API",
+                "typisttech/wp-contained-hook": "Lazily instantiate objects from dependency injection container to WordPress hooks (actions and filters)"
+            },
+            "type": "library",
+            "extra": {
+                "scripts-dev": {
+                    "post-install-cmd": "@install-dev-extra",
+                    "post-update-cmd": "@install-dev-extra"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TypistTech\\WPOptionStore\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tang Rufus",
+                    "email": "tangrufus@gmail.com",
+                    "homepage": "https://www.typist.tech/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Typist Tech",
+                    "email": "wp-option-store@typist.tech",
+                    "homepage": "https://www.typist.tech/"
+                }
+            ],
+            "description": "Extending WordPress Options API, read options from places other than database, the OOP way",
+            "homepage": "https://www.typist.tech/projects/wp-option-store",
+            "keywords": [
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "email": "wp-option-store@typist.tech",
+                "issues": "https://github.com/TypistTech/wp-option-store/issues",
+                "source": "https://github.com/TypistTech/wp-option-store"
+            },
+            "time": "2017-10-27T06:03:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

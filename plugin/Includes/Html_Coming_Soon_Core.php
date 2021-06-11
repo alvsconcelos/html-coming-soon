@@ -140,6 +140,11 @@ class Html_Coming_Soon_Core
 
 		$this->loader->add_action('admin_enqueue_scripts', $plugin_admin, 'enqueue_styles');
 		$this->loader->add_action('admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts');
+		$this->loader->add_action('admin_menu', $plugin_admin, 'register_admin_page');
+		$this->loader->add_action('admin_init', $plugin_admin, 'build_admin_page');
+
+		// add_action( 'admin_menu', 'wpdocs_register_my_custom_menu_page' );
+
 	}
 
 	/**
